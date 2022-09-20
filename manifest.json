@@ -1,0 +1,21 @@
+{
+  "name": "Git branch name",
+  "description": "Auto generate git branch names from card titles",
+  "details": "The git branch name power up creates unique git branch names from the card id and title.",
+  "icon": {
+    "url": "./images/logo.png"
+  },
+  "author": "Toby de Havilland",
+  "capabilities": [
+    "card-detail-badges",
+    "show-settings"
+  ],
+  "connectors": {
+    "iframe": {
+      "url": "./index.html"
+    }
+  },
+  "recommend": {
+    "urls": ["http://github.com/tobydeh/trello-git-branch"]
+  }
+}
